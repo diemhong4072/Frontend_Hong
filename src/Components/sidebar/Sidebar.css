@@ -1,0 +1,14 @@
+.sidebar{
+    float: left;
+    width:200px;
+    height:1076px;
+    background-color:#FFFFFF;
+    border-top: none;
+    border-width:1px;
+    border-style:solid;
+    border-color:#c5c3c3;
+}
+
+.sidebarButtonContainer{
+    margin-top: 40px;
+}

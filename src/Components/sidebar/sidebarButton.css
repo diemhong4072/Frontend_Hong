@@ -1,0 +1,29 @@
+.sidebarButton{
+    width: 160px;
+    height: 51px;
+    display: flex;
+    border-radius: 4px;
+    margin-left: 20px;
+    line-height: 51px;
+}
+
+
+.sidebarButton:hover{
+    background-color: #00358E;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ti-home, .ti-user, .ti-receipt, .ti-comment, .ti-back-right{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 51px;
+}
+
+#logout-button{
+    margin-top: 100px;
+}
+
+.sidebarButton:hover .sidebarIcon{
+    color: #fff;
+}

@@ -1,0 +1,18 @@
+.right{
+    float: right;
+    width: 396px;
+    height: 893px;
+    border-radius: 4px;
+    background-color:#fff;
+    margin-top: 124px;
+    /* margin-left: 36px;
+    margin-right: 19px; */
+}
+
+.rightContent{
+    padding: 10px;
+}
+
+.rightContent h5{
+    color: #315DF7;
+}
