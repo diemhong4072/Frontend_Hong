@@ -3,7 +3,7 @@ import Signup from "./Components/Signup/Signup";
 import Homepage from './Homepage'
 function App(){
     return (
-        <Signup/>
+        <Homepage/>
     )
 }
 

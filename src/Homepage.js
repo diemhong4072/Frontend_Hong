@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Components/Header/Header'
-import Sidebar from './Components/sidebar/Sidebar'
+import Sidebar from './Components/Sidebar/Sidebar'
 import Center from './Components/HomepageContent/Center/Center'
 import Right from './Components/HomepageContent/Right/Right'
 import './App.css';
