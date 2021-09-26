@@ -1,8 +1,14 @@
+body{
+    overflow: hidden;
+}
+
 .signup{
     display: flex;
     width: 100%;
-    height: 650px;
+    height: 800px;
+    
 }
+
 
 .signup-left{
     height: 100%;
@@ -12,6 +18,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+.signup-left img{
+    width: 271px;
+    margin-top: 43px;
 }
 
 .signup-content{
@@ -35,7 +46,7 @@
 }
 
 .signup-left form{
-    margin-top: 120px;
+   
 }
 
 .signup-left .input{
@@ -46,7 +57,7 @@
 .signup-right{
     height: 100%;
     width: 33.3333333%;
-    background-image: url(./image-signup2.jpg);
+    background-image: url(./signup.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -62,13 +73,7 @@
     margin-left: 118px;
 }
 
-.signup-right .slogan{
-    color: #fff;
-    margin: 40px;
-    margin-left: 80px;
-    padding-top: 86px;
-    text-align: right;
-}
+
 
 .slogan-main{
     font-weight: 700;

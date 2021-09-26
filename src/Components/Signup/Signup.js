@@ -1,11 +1,14 @@
 
 import "./Signup.css";
 import Input from "./Input";
+import KnowX_logo from "./KnowX_logo.png";
+import signup from "./signup.png"
 function Signup(props) {
     return (
         <div className="signup">
             
             <div className="signup-left">
+                <img src={KnowX_logo} alt="logo"></img>
                 <form>
                     <Input type="text" inputIcon="ti-email" name="first_name" placeholder="First name"/>
                     <Input type="text" inputIcon="ti-email" name="last_name" placeholder="Last name"/>
@@ -16,14 +19,7 @@ function Signup(props) {
                 </form>
             </div>
             <div className="signup-right">
-                <div className="slogan">
-                    <p className="slogan-main">
-                        WELLCOME TO KNOWX WEBSITE
-                    </p>
-                    <p>
-                        Share knowledge, find buddy and mentor
-                    </p>
-                </div>
+                
             </div>
         </div>
     )
